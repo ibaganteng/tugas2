@@ -30,13 +30,13 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // hellonabawirkec (1:17)
+                    // helloibarkec (1:17)
                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 214*fem, 0*fem),
                     constraints: BoxConstraints (
                       maxWidth: 107*fem,
                     ),
                     child: Text(
-                      'Hello,\nNabawi R',
+                      'Hello,\nIbnu A',
                       style: SafeGoogleFont (
                         'DM Sans',
                         fontSize: 24*ffem,
@@ -224,8 +224,8 @@ class Scene extends StatelessWidget {
                   ),
                   Container(
                     // icstar2tVE (1:23)
-                    width: 22*fem,
-                    height: 24*fem,
+                    width: 35*fem,
+                    height: 40*fem,
                     child: Image.asset(
                       'assets/page-1/images/icstar-2.png',
                       fit: BoxFit.cover,
